@@ -1,8 +1,57 @@
-# React + Vite
+AUTH
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AUTH is a user authentication system designed for secure login and registration. It includes features such as password hashing, user session management, and authentication token handling.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+User registration and login
+
+Secure password hashing
+
+Token-based authentication
+
+Session management
+
+Logout functionality
+
+Technologies Used
+
+Backend: Node.js
+
+Frontend: React, HTML, CSS, JavaScript
+
+Supabase is used for authentication
+
+Authentication: JWT (JSON Web Token)
+
+Installation
+
+Steps:
+
+Clone the repository:
+
+git clone https://github.com/Sandesh719/AUTH.git
+
+Navigate to the project directory:
+
+cd AUTH
+
+Install dependencies (if applicable):
+
+npm install
+
+Set up environment variables for authentication keys and database connections.
+
+Run the authentication server:
+
+npm start
+
+Usage:
+
+Users can sign up with their email and password.
+
+Login securely using hashed credentials.
+
+Tokens/sessions are managed for authentication.
+
+Users can log out to terminate their session.
